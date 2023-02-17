@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+.team {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(#281c3e,#0f051d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.team-content {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+  
+}
+
+.team-content img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.center h1{
+	color: #fff;
+	font-size: 4rem;
+	text-align: center;
+  margin-top: -6rem;
+}
+
+.box {
+  padding: 16px;
+  background: #120c1b;
+  border-radius: 15px;
+  transition: all .38s ease;
+}
+
+.box h3{
+  font-size: 23px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.box h5{
+  font-size: 15px;
+  font-weight:600;
+  color: #b7b4bb;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.icons  a{
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  margin: 0 8px;
+  transition: all .38s ease;
+}
+
+.icons  a:hover{
+  transform: scale(1.2);
+}
+
+.box:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+
+.button {
+  position: fixed;
+  top:85vh;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 8px;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.795), 0 17px 50px 0 rgba(0, 0, 0, 0.795);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+
+
+.button:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .team{
+    width: 100%;
+    height: auto;
+    padding: 90px 2%;
+  }
+  .center{
+    font-size: 3.2rem;
+  }
+}
+
+
+ 
+
+#rcorners:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.795), 0 17px 50px 0 rgba(0, 0, 0, 0.795);
+}
+
+.trans {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        translate: 0 -25px;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+  }
+

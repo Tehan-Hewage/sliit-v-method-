@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.my-logo {
+    position: relative;
+    background-color: #0f1e31;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.my-logo h1 {
+    color: white;
+    font-family: Roboto Mono;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.shadow {
+    color: white;
+    font-family: Roboto Mono;
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+.my-logo .menu {
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    top: 23vh;
+    left : 2.01vw;
+    right : 0;
+}
+
+.my-logo .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Roboto Mono;
+    padding: 20px 0;
+    width: 95%;
+    text-align: center;
+}
+
+
+#btn-1:hover {
+    background-color: rgba(228, 62, 62, 0.8);
+}
+
+#btn-2:hover {
+    background-color: rgba(49, 68, 173, 0.8);
+}
+
+#btn-3:hover {
+    background-color: rgba(64, 163, 46, 0.8);
+}
+
+#btn-4:hover {
+    background-color: rgba(226, 194, 63, 0.8);
+}
+
+#btn-5:hover {
+    background-color: rgba(49, 207, 194, 0.8);
+}
+
+#btn-6:hover {
+    background-color: rgba(141, 71, 207, 0.8);
+}
+
+#btn-7:hover {
+    background-color: rgba(71, 207, 184, 0.678);
+}
+
+
+
+
+.about-me {
+    background-color: rgb(0, 109, 109);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: space-around;
+}
+
+.about-me h1 {
+    color: white;
+    font-family: Roboto Mono;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.about-me h2 {
+    color: white;
+    font-family: Lato;
+    text-align:start;
+    margin-top: 20vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 1.5;
+}
+
+.about-me p {
+    color: white;
+    margin: 0 20px;
+}
+
+.about-me img {
+    border-radius: 50%;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.image {
+    position: relative;
+    width: 350px;
+    margin: 90px auto 0 auto;
+}
+
+.my-logo-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.image_v {
+    position: relative;
+    width: 300px;
+    margin: 100px auto 0 auto;
+}
+
+
+
+.button {
+    position: fixed;
+    bottom: 0;
+    left: 10vw;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 8px;
+  }
+
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.button2:hover span {
+    padding-right: 20px;
+  }
+  
+.button2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button2 {
+    position: fixed;
+    bottom: 0;
+    right: 10vw;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 8px;
+  }
+
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  
+.button span:after {
+    content: '\00ab';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.8s;
+  }
+  
+.button:hover span {
+    padding-left: 20px;
+  }
+  
+.button:hover span:after {
+    opacity: 1;
+    left: 0;
+}
+
+.container1 {
+    width:100px;
+    position: fixed;
+    top: 4vh;
+    right :15vw;
+    font-size: 2.2vh;
+    
+    
+}
+
+.click{
+    background-color: rgb(248, 95, 115);
+    /*font-family:Arial;*/
+}
+
+.click:hover {
+    background-color: rgb(248, 95, 115,0.8);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.click,.links {
+    margin-bottom: 0.3vh;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: Fira Sans Condensed;
+    outline: none;
+    width:245px;
+    color:#fff;
+    transition: 0.3s;
+    border-radius: 18px 0px 20px;
+    
+}
+
+.list {
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+}
+
+.newlist {
+    transform: scaleY(1);
+}
+
+.links {
+    background-color: #1d3d68;
+    top : 1vh;
+}
+
+.links:hover {
+    background-color: #295792;
+    transform: scale(1.1);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#rcorners {
+    border-radius: 15px 50px;
+    background: #219dad;
+    padding: 20px; 
+    width: 50wh;
+    height: 50wh; 
+  } 
+
+#rcorners:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.trans {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        translate: 0 -25px;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .about-me {
+        display: none;
+    }
+}
+
+
+.topic {
+    position: absolute;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    top: 23vh;
+    width: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Roboto Mono;
+    padding: 20px 0;
+    margin: 0 30px;
+    text-align: center;
+}

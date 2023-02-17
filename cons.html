@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disadvantages</title>
+    <link rel="icon" href="img/1.png">
+    <link rel="stylesheet" href="bg.css">
+</head>
+<body>
+    <div class = "content">
+        <div class = "black">
+            <div class = "black-content">
+                <h1 class="shadow trans">Cons of V-Model</h1>
+                <img class="image" src="img/logo.png" alt="image">
+            </div>
+        </div>
+        <div class = "cyan">
+            <div class="container">
+                <button class="click trans">Menu</button>       
+                <div class="list">       
+                    <button onclick ="location.href = 'menu.html'" class="links">Home</button>
+                    <button onclick ="location.href = 'v-method.html'" class="links">Introduction to V-Model</button>       
+                    <button onclick ="location.href = 'process.html'" class="links">The Structure of V-Model</button>       
+                    <button onclick ="location.href = 'pros.html'" class="links">Pros & Cons of V-Model</button>       
+                    <button onclick ="location.href = 'assurance.html'" class="links">Quality Assurance in V-Model</button>   
+                    <button onclick ="location.href = 'practices.html'" class="links">Best Practices in V-Model</button> 
+                    <button onclick ="location.href = 'adopt.html'" class="links">The Adoption of V-Model</button>
+                    <button onclick ="location.href = 'index.html'" class="links">Our Group</button>       
+                </div>        
+            </div>
+            <div>
+                
+   
+                    <div id="border" class ="trans">
+                        <h2>Disadvantages</h2><br>
+                        <div class="state">
+                            <p>-</p>
+                            <p>Limited flexibility</p>
+                        </div>
+                        <div class="state">
+                            <p>-</p>
+                            <p>Not suitable for complex projects</p>
+                        </div>
+                        <div class="state">
+                            <p>-</p>
+                            <p>Very rigid</p>
+                        </div>
+                        <div class="state">
+                            <p>-</p>
+                            <p>To make a any changes test requirements has to be updated </p>
+                        </div>
+                        <div class="state">
+                            <p>-</p>
+                            <p>High risk and uncertainty</p>
+                        </div>
+
+                    </div>                 
+
+                        
+            </div>
+        </div>
+        <a href = "pros.html" class="button"><span>Back </span> </a>
+        <a href = "assurance.html"class="button2"><span>Next </span> </a>
+    </div>
+    <script>
+
+        let click = document.querySelector('.click');
+
+        let list = document.querySelector('.list');
+
+        click.addEventListener("click",()=>{
+
+            list.classList.toggle('newlist');
+
+        });
+
+    </script>
+</body>
+</html>

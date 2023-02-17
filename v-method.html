@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V Method</title>
+    <link rel="icon" href="img/1.png">
+    <link rel="stylesheet" href="bg.css">
+</head>
+<body>
+    
+    <div class = "content">
+        <div class = "black">
+            <div class="black-content">
+                <h1 class="shadow trans">Introduction To V-Model</h1>
+                <img class="image" src="img/logo.png" alt="image"> 
+            </div>
+        </div>
+        <div class = "cyan">
+            <div class="container">
+                <button class="click trans">Menu</button>       
+                <div class="list">       
+                    <button onclick ="location.href = 'menu.html'" class="links">Home</button>
+                    <button onclick ="location.href = 'v-method.html'" class="links">Introduction to V-Model</button>       
+                    <button onclick ="location.href = 'process.html'" class="links">The Structure of V-Model</button>       
+                    <button onclick ="location.href = 'pros.html'" class="links">Pros & Cons of V-Model</button>       
+                    <button onclick ="location.href = 'assurance.html'" class="links">Quality Assurance in V-Model</button>   
+                    <button onclick ="location.href = 'practices.html'" class="links">Best Practices in V-Model</button> 
+                    <button onclick ="location.href = 'adopt.html'" class="links">The Adoption of V-Model</button>    
+                    <button onclick ="location.href = 'index.html'" class="links">Our Group</button> 
+                </div>        
+            </div>
+            <div>
+                <h3 id = "border" class="trans">The V Model in system development is a software development process that uses a sequential and iterative approach to ensure that the development of a system meets the customer's requirements. It is a type of waterfall model, with each stage building upon the previous one, and it consists of two parallel tracks: the verification track, which involves the planning and testing of each stage, and the validation track, which involves the overall testing of the entire system.</h3>
+                
+            </div>
+        </div>
+        <a href = "menu.html" class="button"><span>Back </span> </a>
+        <a href = "structure.html"class="button2"><span>Next </span> </a>
+    </div>
+
+    <script>
+
+        let click = document.querySelector('.click');
+
+        let list = document.querySelector('.list');
+
+        click.addEventListener("click",()=>{
+
+            list.classList.toggle('newlist');
+
+        });
+
+    </script>
+        
+</body>
+</html>

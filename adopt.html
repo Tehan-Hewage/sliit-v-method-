@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <link rel="icon" href="img/1.png">
+    <link rel="stylesheet" href="bg.css">
+</head>
+<body>
+    <div class = "content">
+        <div class = "black">
+            <div class = "black-content">
+                <h1 class="shadow trans">The Adoption Phase of V-Model</h1>
+                <img class="image" src="img/logo.png" alt="image">
+            </div>
+        </div>
+        <div class = "cyan">
+            <div class="container">
+                <button class="click trans">Menu</button>       
+                <div class="list">       
+                    <button onclick ="location.href = 'menu.html'" class="links">Home</button>
+                    <button onclick ="location.href = 'v-method.html'" class="links">Introduction to V-Model</button>       
+                    <button onclick ="location.href = 'process.html'" class="links">The Structure of V-Model</button>       
+                    <button onclick ="location.href = 'pros.html'" class="links">Pros & Cons of V-Model</button>       
+                    <button onclick ="location.href = 'assurance.html'" class="links">Quality Assurance in V-Model</button>   
+                    <button onclick ="location.href = 'practices.html'" class="links">Best Practices in V-Model</button> 
+                    <button onclick ="location.href = 'adopt.html'" class="links">The Adoption of V-Model</button> 
+                    <button onclick ="location.href = 'index.html'" class="links">Our Group</button>       
+                </div>        
+            </div>
+            <div>
+            
+            <div id="border" class ="trans">
+                <h2>When To Use V-Method </h2><br>
+                <div class="state">
+                    <p>•</p>
+                    <p>Projects where the software will be used in safety-critical or mission-critical systems, such as aviation, healthcare, or defense applications.</p>
+                </div>
+                <div class="state">
+                    <p>•</p>
+                    <p>Projects where the software requirements are well understood and can be clearly defined and documented.</p>
+                </div>
+                <div class="state">
+                    <p>•</p>
+                    <p>Projects where testing can be planned in advance and built into the project schedule.</p>
+                </div>
+                <div class="state">
+                    <p>•</p>
+                    <p>Projects where there is a need for comprehensive testing that covers multiple levels, including unit testing, integration testing, system testing, and acceptance testing.</p>
+                </div>
+                <div class="state">
+                    <p>•</p>
+                    <p>Projects where there is a need for traceability between requirements, design, and testing.</p>
+                </div>
+            </div>
+            </div>
+                <a href = "practices.html" class="button"><span>Back </span> </a>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        let click = document.querySelector('.click');
+
+        let list = document.querySelector('.list');
+
+        click.addEventListener("click",()=>{
+
+            list.classList.toggle('newlist');
+
+        });
+
+    </script>
+</body>
+</html>
